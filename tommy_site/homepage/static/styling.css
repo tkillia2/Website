@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=Overpass+Mono:wght@600&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Poppins:wght@400;700;800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #f8f9fa;
+}
+main{
+    margin: 0 3rem;
+}
+
+.navbar{
+    padding: 0.5rem 2rem;
+}
+.navbar i{
+    color: white;
+    padding-right: 1rem;
+}
+ 
+.navbar{
+    /* background-color: #957DAD; */
+    background-color: #82b9ff;
+} 
