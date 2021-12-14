@@ -1,0 +1,96 @@
+{% load static %}
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <style>
+            .education {
+                border-bottom: #82b9ff solid 2px;
+            }
+            .education i{
+                color: #82b9ff;
+            }
+            .resume-section {
+                padding-left: 5px;
+            }
+            .honors {
+                padding-bottom: 12px;
+                border-bottom: #82b9ff solid 2px;
+            }
+            .honors i{
+                color: #82b9ff;
+            }
+            .column-left {
+                float: left;
+                width: 33.333%;
+            }
+            .column-right {
+                float: right;
+                width: 33.333%;
+            }
+            .column-center {
+                display: inline-block;
+                width: 33.333%;
+            }
+        </style>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <meta name="Home Page" content="Home Page">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/styling.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        {% include "header/headers.html" %}
+        <main>
+            <section class="education resume-section">
+                <div class="resume-header" style="position:relative; top: 15px; right: -10px">
+                    <h2 style="font-weight: bold"><i class="fas fa-graduation-cap"></i> Education</h2>
+                </div>
+                <div class="school-grad-date" style="position:relative; top: 10px; right: -40px">
+                    <ul>
+                        <li>University of Notre Dame</li>
+                        <li>Major: Engineering - Computer Science, BS</li>
+                        <li>GPA: 3.858</li>
+                        <li>Graduation Date: May 21, 2023</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="honors resume-section">
+                <div class="resume-header" style="position:relative; top: 15px; right: -10px">
+                    <h2 style="font-weight: bold"><i class="fas fa-graduation-cap"></i> Awards and Honors</h2>
+                </div>
+                <div class="awards-honors" style="position:relative; top: 10px; right: -40px; bottom: 8px">
+                    <div class="container">
+                        <div class="column-center">Dean's List: 3/4 Semesters</div>
+                        <div class="column-left">iTReDS Scholar</div>
+                        <div class="column-right">ACT: 34</div>
+                    </div>                      
+                </div>
+            </section>
+
+            <section class="experience resume-section">
+                <div class="resume-header" style="position:relative; top: 15px; right: -10px">
+                    <h2 style="font-weight: bold"><i class="fas fa-briefcase"></i> Experience</h2>
+                </div>
+                <div class="jobs" style="position:relative; top: 10px; right: -40px">
+                </div>
+            </section>
+        </main>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

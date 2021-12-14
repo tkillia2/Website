@@ -24,6 +24,10 @@ main{
     padding-right: 1rem;
 }
 
+.resume-education {
+    border-bottom: #82b9ff;
+}
+
 #header-name {
     font-size: 20px
 }
