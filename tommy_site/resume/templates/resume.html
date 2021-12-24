@@ -36,9 +36,30 @@
                 display: inline-block;
                 width: 33.333%;
             }
+            .experience i{
+                color: #82b9ff;
+            }
+            .experience ul{
+                border-bottom: #82b9ff solid 2px;
+            }
+            
+            .skills i{
+                color: #82b9ff;
+            }
+            h4:before {
+                content: "- "
+            }
+            div {
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+            .skill-list {
+                border-bottom: #82b9ff solid 2px;
+            }
         </style>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title></title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
@@ -63,7 +84,7 @@
                     <ul>
                         <li>University of Notre Dame</li>
                         <li>Major: Engineering - Computer Science, BS</li>
-                        <li>GPA: 3.858</li>
+                        <li>GPA: 3.837</li>
                         <li>Graduation Date: May 21, 2023</li>
                     </ul>
                 </div>
@@ -75,7 +96,7 @@
                 </div>
                 <div class="awards-honors" style="position:relative; top: 10px; right: -40px; bottom: 8px">
                     <div class="container">
-                        <div class="column-center">Dean's List: 3/4 Semesters</div>
+                        <div class="column-center">Dean's List: 3/5 Semesters</div>
                         <div class="column-left">iTReDS Scholar</div>
                         <div class="column-right">ACT: 34</div>
                     </div>                      
@@ -83,10 +104,46 @@
             </section>
 
             <section class="experience resume-section">
-                <div class="resume-header" style="position:relative; top: 15px; right: -10px">
+                <div class="resume-header" style="position:relative; top: 15px; right: -15px">
                     <h2 style="font-weight: bold"><i class="fas fa-briefcase"></i> Experience</h2>
                 </div>
-                <div class="jobs" style="position:relative; top: 10px; right: -40px">
+                <div class="jobs" style="position:relative; top: 10px; right: -50px">
+                    <h4>Teaching Assistant - Data Structures, Fall Semester 2021</h4>
+                    <p style="position: relative; right: -20px">Selected by Notre Dame Professor, Dr. Matthew Morrison, to serve as a TA during his Data Structures course. TA Duties included:</p>
+                    <ul style="position:relative; top: -10px; right: -20px">   
+                        <li> Grading exams, programming challenges, labs, weekly surveys, and more</li>
+                        <li> Attending lectures, MWF, and hosting office hours to answer student's questions</li>
+                        <li> Serving as a Preternship Project Manager to ensure student's final project (Preternship) runs smoothly by performing code reviews and reading their memorandums.</li>
+                    </ul>
+                    <h4 style="position:relative; top: -20px"> iTReDS Program Scholar - Data Science, Fall 2021 Cohort</h4>
+                    <p style="position:relative; top: -20px; right: -20px"> iTReDS, the Interdisciplinary Traineeship for Socially Responsible and Engaged Data Scientists, 
+                        is a new program at Notre Dame where students apply into a two-year honors program centered around 
+                        Data Science. The program educates the next generation of data scientists to ensure ethics and 
+                        social responsibility are prevalent within their future work. This is all accomplished through:</p>
+                        <ul style="position:relative; top: -30px; right: -20px">
+                            <li> An established curriculum including Design Thinking, Data Science, Data Ethics, and more.</li>
+                            <li> A Senior Capstone Project created by a group of iTReDS scholar around a topic of their choice</li>
+                            <li> A direct affilition with the Lucy Family Institute for Data & Society</li>
+                        </ul>
+                    <h4 style="position:relative; top: -40px"> Preternship Software Engineer - SpaceX, Spring Semester 2021</h4>
+                    <p style="position:relative; top: -40px; right: -20px"> As a student in Data Structures, I was partnered up with three other students
+                        as well as an Industry Mentor from SpaceX in order to tackle the challenge provided by our SpaceX mentor. Our challenge was 
+                        to perform data analysis on de-identified vendor data. In order to accomplish this task we worked as a team and created the following:</p>
+                        <ul style="position:relative; top: -50px; right: -20px; bottom: -100px">
+                            <li> Created a program in python3 that would take in a CSV file, along with other flags for specific operations, and parse through the data</li>
+                            <li> This data was then put through an expression created by our team to gauge the overall vendor relationship, and whether or not SpaceX should grow, maintain, or exit this vendor relationship</li>
+                            <li> Taking in the three pillars of supply chain management, our results were then displayed in an orderly table with data readily available</li>
+                            <li> Our team also performed weekly code reviews, memorandums, and conducted professional interviews along with a final presentation.</li>
+                        </ul>
+                </div>
+            </section>
+
+            <section class="skills resume-section">
+                <div class="resume-header" style="position:relative; top: -40px; right: -12px">
+                    <h2 style="font-weight: bold"><i class="fas fa-code"></i> Skills</h2>
+                </div>
+                <div>
+                    <h5 class="skill-list" style="position: relative; top: -40px; right: -65px"> Python, C, C++, Matlab, JavaScript, Ruby, HTML, Bootstrap, CSS, Django, Node.js, Java, GitHub, Microsoft Office, REST Framework (Django)</h5>
                 </div>
             </section>
         </main>
